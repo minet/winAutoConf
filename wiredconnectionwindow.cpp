@@ -87,7 +87,7 @@ void WiredConnectionWindow::launched(void)
                 "</MSM>\n"
             "</LANProfile>\n");
 
-    /** Configure Username and Password for authentification **/
+    /** Configure Username and Password for authentication **/
     QString xmlUserPassword = QString(
               "<?xml version=\"1.0\" ?>\n"
               "<EapHostUserCredentials xmlns=\"http://www.microsoft.com/provisioning/EapHostUserCredentials\"\n"
